@@ -5,11 +5,14 @@ import com.puc.trabalho1_n2_jogo_com_poo.domain.inventory.Inventory;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
+
 
 @Setter
 @Getter
 @AllArgsConstructor
-public abstract class character {
+@ToString
+public abstract class Character {
     private String name;
     private Integer health;
     private Integer damage;
