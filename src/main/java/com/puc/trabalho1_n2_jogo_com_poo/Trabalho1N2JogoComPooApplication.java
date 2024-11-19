@@ -14,7 +14,7 @@ public class Trabalho1N2JogoComPooApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        FunctionsGame.callMenu();
+        FunctionsGame.callStart();
         Character protagonist = FunctionsGame.callSelectionHero();
         FunctionsGame.callImgHero(protagonist);
     }
